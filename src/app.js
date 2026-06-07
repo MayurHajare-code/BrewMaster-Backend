@@ -13,7 +13,7 @@ app.use(
     cors({
         origin: [
             "http://localhost:5173",
-            "https://brewmaster-frontend-333.vercel.app/"
+            "https://brewmaster-frontend-333.vercel.app"
         ],
         credentials: true,
     })
